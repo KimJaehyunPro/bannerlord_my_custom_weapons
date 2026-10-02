@@ -1,0 +1,28 @@
+<Module>
+    <Name value="My Custom Weapons Mod"/>
+    <Id value="MyCustomWeapons"/>
+    <Version value="v1.0.0"/>
+    <DefaultModule value="true"/>
+    <ModuleCategory value="Singleplayer"/>
+    <DependedModules>
+        <DependedModule Id="Native" DependentVersion="v1.4.8" Optional="false"/>
+        <DependedModule Id="SandBoxCore" DependentVersion="v1.4.8" Optional="false"/>
+        <DependedModule Id="Sandbox" DependentVersion="v1.4.8" Optional="false"/>
+        <DependedModule Id="StoryMode" DependentVersion="v1.4.8" Optional="false"/>
+        <DependedModule Id="CustomBattle" DependentVersion="v1.4.8" Optional="false"/>
+        <DependedModule Id="BirthAndDeath" DependentVersion="v1.4.8" Optional="true"/>
+    </DependedModules>
+    <SubModules>
+    </SubModules>
+    <Xmls>
+        <XmlNode>
+            <XmlName id="Items" path="custom_weapons"/>
+            <IncludedGameTypes>
+                <Gametype value = "Campaign"/>
+                <Gametype value = "CampaignStoryMode"/>
+                <GameType value = "CustomGame"/>
+                <GameType value="EditorGame" />
+            </IncludedGameTypes>
+        </XmlNode>
+    </Xmls>
+</Module>
