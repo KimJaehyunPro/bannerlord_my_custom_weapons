@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Items>
-    <CraftedItem id="L1_Spear" name="{=L1Spear}L1_Spear" crafting_template="TwoHandedPolearm" is_merchandise="true">
+    <CraftedItem id="L1_Spear" name="{=L1Spear}L1_Spear" crafting_template="TwoHandedPolearm">
         <Pieces>
             <Piece id="spear_blade_9" Type="Blade" scale_factor="110"/>
             <Piece id="default_polearm_guard" Type="Guard"/>
@@ -9,7 +9,7 @@
         </Pieces>
     </CraftedItem>
 
-    <CraftedItem id="L2_Spear" name="{=L2Spear}L2_Spear" crafting_template="TwoHandedPolearm" is_merchandise="true">
+    <CraftedItem id="L2_Spear" name="{=L2Spear}L2_Spear" crafting_template="TwoHandedPolearm">
         <Pieces>
             <Piece id="nord_spear_blade_10" Type="Blade"/>
             <Piece id="spear_guard_16" Type="Guard"/>
@@ -18,7 +18,7 @@
         </Pieces>
     </CraftedItem>
 
-    <CraftedItem id="L3_Spear" name="{=L3Spear}L3_Spear" crafting_template="TwoHandedPolearm" is_merchandise="true">
+    <CraftedItem id="L3_Spear" name="{=L3Spear}L3_Spear" crafting_template="TwoHandedPolearm">
         <Pieces>
             <Piece id="spear_blade_8" Type="Blade"/>
             <Piece id="nord_spear_guard_2" Type="Guard"/>
@@ -27,7 +27,7 @@
         </Pieces>
     </CraftedItem>
 
-    <CraftedItem id="L4_Spear" name="{=L4Spear}L4_Spear" crafting_template="TwoHandedPolearm" is_merchandise="true">
+    <CraftedItem id="L4_Spear" name="{=L4Spear}L4_Spear" crafting_template="TwoHandedPolearm">
         <Pieces>
             <Piece id="spear_blade_42" Type="Blade"/>
             <Piece id="spear_guard_3" Type="Guard"/>
@@ -36,7 +36,7 @@
         </Pieces>
     </CraftedItem>
 
-    <CraftedItem id="L5_Spear" name="{=L5Spear}L5_Spear" crafting_template="TwoHandedPolearm" is_merchandise="true">
+    <CraftedItem id="L5_Spear" name="{=L5Spear}L5_Spear" crafting_template="TwoHandedPolearm">
         <Pieces>
             <Piece id="spear_blade_18" Type="Blade"/>
             <Piece id="spear_guard_13" Type="Guard"/>
@@ -45,7 +45,7 @@
         </Pieces>
     </CraftedItem>
 
-    <CraftedItem id="L1_Two-Handed_Spear" name="{=L1TwoHandedSpear}L1_Two-Handed Spear" crafting_template="TwoHandedPolearm" is_merchandise="true">
+    <CraftedItem id="L1_Two-Handed_Spear" name="{=L1TwoHandedSpear}L1_Two-Handed Spear" crafting_template="TwoHandedPolearm">
         <Pieces>
             <Piece id="spear_blade_44" Type="Blade"/>
             <Piece id="default_polearm_guard" Type="Guard"/>
@@ -54,7 +54,7 @@
         </Pieces>
     </CraftedItem>
 
-    <CraftedItem id="L2_Two-Handed_Spear" name="{=L2TwoHandedSpear}L2_Two-Handed Spear" crafting_template="TwoHandedPolearm" is_merchandise="true">
+    <CraftedItem id="L2_Two-Handed_Spear" name="{=L2TwoHandedSpear}L2_Two-Handed Spear" crafting_template="TwoHandedPolearm">
         <Pieces>
             <Piece id="spear_blade_44" Type="Blade"/>
             <Piece id="default_polearm_guard" Type="Guard"/>
@@ -63,7 +63,7 @@
         </Pieces>
     </CraftedItem>
 
-    <CraftedItem id="L3_Two-Handed_Spear" name="{=L3TwoHandedSpear}L3_Two-Handed Spear" crafting_template="TwoHandedPolearm" is_merchandise="true">
+    <CraftedItem id="L3_Two-Handed_Spear" name="{=L3TwoHandedSpear}L3_Two-Handed Spear" crafting_template="TwoHandedPolearm">
         <Pieces>
             <Piece id="spear_blade_40" Type="Blade"/>
             <Piece id="default_polearm_guard" Type="Guard"/>
@@ -72,7 +72,7 @@
         </Pieces>
     </CraftedItem>
 
-    <CraftedItem id="L4_Two-Handed_Spear" name="{=L4TwoHandedSpear}L4_Two-Handed Spear" crafting_template="TwoHandedPolearm" is_merchandise="true">
+    <CraftedItem id="L4_Two-Handed_Spear" name="{=L4TwoHandedSpear}L4_Two-Handed Spear" crafting_template="TwoHandedPolearm">
         <Pieces>
             <Piece id="spear_blade_45" Type="Blade"/>
             <Piece id="default_polearm_guard" Type="Guard"/>
@@ -81,7 +81,7 @@
         </Pieces>
     </CraftedItem>
 
-    <CraftedItem id="L5_Two-Handed_Spear" name="{=L5TwoHandedSpear}L5_Two-Handed Spear" crafting_template="TwoHandedPolearm" is_merchandise="true">
+    <CraftedItem id="L5_Two-Handed_Spear" name="{=L5TwoHandedSpear}L5_Two-Handed Spear" crafting_template="TwoHandedPolearm">
         <Pieces>
             <Piece id="nord_spear_blade_13" Type="Blade"/>
             <Piece id="default_polearm_guard" Type="Guard"/>
@@ -90,49 +90,92 @@
         </Pieces>
     </CraftedItem>
 
-    <CraftedItem id="L1_Pike" name="{=L1Pike}L1_Pike" crafting_template="TwoHandedPolearm" is_merchandise="true">
+    <CraftedItem id="L1_Pike" name="{=L1Pike}L1_Pike" crafting_template="TwoHandedPolearm">
         <Pieces>
             <Piece id="spear_blade_9" Type="Blade"/>
-            <Piece id="nord_spear_guard_1" Type="Guard"/>
-            <Piece id="spear_handle_13" Type="Handle" scale_factor="110"/>
-            <Piece id="default_polearm_pommel" Type="Pommel"/>
-        </Pieces>
-    </CraftedItem>
-
-    <CraftedItem id="L2_Pike" name="{=L2Pike}L2_Pike" crafting_template="TwoHandedPolearm" is_merchandise="true">
-        <Pieces>
-            <Piece id="spear_blade_3" Type="Blade"/>
-            <Piece id="nord_spear_guard_1" Type="Guard"/>
-            <Piece id="spear_handle_23" Type="Handle" scale_factor="110"/>
-            <Piece id="default_polearm_pommel" Type="Pommel"/>
-        </Pieces>
-    </CraftedItem>
-
-    <CraftedItem id="L3_Pike" name="{=L3Pike}L3_Pike" crafting_template="TwoHandedPolearm" is_merchandise="true">
-        <Pieces>
-            <Piece id="spear_blade_8" Type="Blade"/>
-            <Piece id="nord_spear_guard_5" Type="Guard"/>
-            <Piece id="spear_handle_23" Type="Handle" scale_factor="110"/>
-            <Piece id="default_polearm_pommel" Type="Pommel"/>
-        </Pieces>
-    </CraftedItem>
-
-    <CraftedItem id="L4_Pike" name="{=L4Pike}L4_Pike" crafting_template="TwoHandedPolearm" is_merchandise="true">
-        <Pieces>
-            <Piece id="spear_blade_4" Type="Blade"/>
-            <Piece id="nord_spear_guard_4" Type="Guard"/>
+            <Piece id="default_polearm_guard" Type="Guard"/>
             <Piece id="spear_handle_24" Type="Handle" scale_factor="110"/>
             <Piece id="default_polearm_pommel" Type="Pommel"/>
         </Pieces>
+        <!-- Length: 243 Weight: 3.02 -->
     </CraftedItem>
 
-    <CraftedItem id="L5_Pike" name="{=L5Pike}L5_Pike" crafting_template="TwoHandedPolearm" is_merchandise="true">
+    <CraftedItem id="L2_Pike" name="{=L2Pike}L2_Pike" crafting_template="TwoHandedPolearm">
         <Pieces>
-            <Piece id="spear_blade_18" Type="Blade"/>
+            <Piece id="nord_spear_blade_10" Type="Blade"/>
+            <Piece id="nord_spear_guard_1" Type="Guard"/>
+            <Piece id="spear_handle_24" Type="Handle" scale_factor="110"/>
+            <Piece id="default_polearm_pommel" Type="Pommel"/>
+        </Pieces>
+        <!-- Length: 284 Weight: 3.02 -->
+    </CraftedItem>
+
+    <CraftedItem id="L3_Pike" name="{=L3Pike}L3_Pike" crafting_template="TwoHandedPolearm">
+        <Pieces>
+            <Piece id="nord_spear_blade_12" Type="Blade"/>
+            <Piece id="nord_spear_guard_5" Type="Guard"/>
+            <Piece id="spear_handle_24" Type="Handle" scale_factor="110"/>
+            <Piece id="default_polearm_pommel" Type="Pommel"/>
+        </Pieces>
+        <!-- Length: 287 Weight: 2.92 -->
+    </CraftedItem>
+
+    <CraftedItem id="L4_Pike" name="{=L4Pike}L4_Pike" crafting_template="TwoHandedPolearm">
+        <Pieces>
+            <Piece id="spear_blade_4" Type="Blade"/>
+            <Piece id="spear_guard_12" Type="Guard"/>
+            <Piece id="spear_handle_24" Type="Handle" scale_factor="110"/>
+            <Piece id="default_polearm_pommel" Type="Pommel"/>
+        </Pieces>
+        <!-- Length: 307 Weight: 3.14 -->
+    </CraftedItem>
+
+    <CraftedItem id="L5_Pike" name="{=L5Pike}L5_Pike" crafting_template="TwoHandedPolearm">
+        <Pieces>
+            <Piece id="nord_spear_blade_7" Type="Blade"/>
             <Piece id="spear_guard_13" Type="Guard"/>
             <Piece id="spear_handle_24" Type="Handle" scale_factor="110"/>
             <Piece id="default_polearm_pommel" Type="Pommel"/>
         </Pieces>
+        <!-- Length: 301 Weight: 3.32 -->
     </CraftedItem>
+
+    <CraftedItem id="L1_Two-Handed_Mace" name="{=L1TwoHandedMace}L1_Two-Handed Mace" crafting_template="TwoHandedMace">
+        <Pieces>
+            <Piece id="mace_head_24" Type="Blade"/>
+            <Piece id="spear_handle_1" Type="Handle"/>
+            <Piece id="default_polearm_pommel" Type="Pommel"/>
+        </Pieces>
+        <!-- Length: 100 Weight: 0.8 -->
+    </CraftedItem>
+
+    <CraftedItem id="L2_Two-Handed_Mace" name="{=L2TwoHandedMace}L2_Two-Handed Mace" crafting_template="TwoHandedMace">
+        <Pieces>
+            <Piece id="mace_head_36" Type="Blade"/>
+            <Piece id="mace_handle_19" Type="Handle"/>
+            <Piece id="default_polearm_pommel" Type="Pommel"/>
+        </Pieces>
+        <!-- Length: 109 Weight: 0.89 -->
+    </CraftedItem>
+
+    <CraftedItem id="L3_Two-Handed_Mace" name="{=L3TwoHandedMace}L3_Two-Handed Mace" crafting_template="TwoHandedMace">
+        <Pieces>
+            <Piece id="mace_head_33" Type="Blade"/>
+            <Piece id="mace_handle_18" Type="Handle"/>
+            <Piece id="default_polearm_pommel" Type="Pommel"/>
+        </Pieces>
+        <!-- Length: 103 Weight: 1.07 -->
+    </CraftedItem>
+
+    <CraftedItem id="L4_Two-Handed_Mace" name="{=L4TwoHandedMace}L4_Two-Handed Mace" crafting_template="TwoHandedMace">
+        <Pieces>
+            <Piece id="mace_head_32" Type="Blade"/>
+            <Piece id="mace_handle_26" Type="Handle"/>
+            <Piece id="default_polearm_pommel" Type="Pommel"/>
+        </Pieces>
+        <!-- Length: 102 Weight: 0.95 -->
+    </CraftedItem>
+
+
 
 </Items>
