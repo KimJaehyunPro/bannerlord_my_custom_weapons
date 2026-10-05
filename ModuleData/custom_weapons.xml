@@ -176,6 +176,99 @@
         <!-- Length: 102 Weight: 0.95 -->
     </CraftedItem>
 
+    <CraftedItem id="L1_Mace" name="{=L1Mace}L1_Mace" crafting_template="Mace">
+        <Pieces>
+            <Piece id="mace_head_24" Type="Blade"/>
+            <Piece id="mace_handle_17" Type="Handle"/>
+            <Piece id="default_polearm_pommel" Type="Pommel"/>
+        </Pieces>
+        <!-- Length: 64 Weight: 0.56 -->
+    </CraftedItem>
 
+    <CraftedItem id="L2_Mace" name="{=L2Mace}L2_Mace" crafting_template="Mace">
+        <Pieces>
+            <Piece id="mace_head_14" Type="Blade"/>
+            <Piece id="mace_handle_17" Type="Handle"/>
+            <Piece id="default_polearm_pommel" Type="Pommel"/>
+        </Pieces>
+        <!-- Length: 75 Weight: 0.66 -->
+    </CraftedItem>
+
+    <CraftedItem id="L3_Mace" name="{=L3Mace}L3_Mace" crafting_template="Mace">
+        <Pieces>
+            <Piece id="mace_head_9" Type="Blade"/>
+            <Piece id="mace_handle_12" Type="Handle"/>
+            <Piece id="default_polearm_pommel" Type="Pommel"/>
+        </Pieces>
+        <!-- Length: 73 Weight: 0.75 -->
+    </CraftedItem>
+
+    <CraftedItem id="L4_Mace" name="{=L4Mace}L4_Mace" crafting_template="Mace">
+        <Pieces>
+            <Piece id="mace_head_3" Type="Blade"/>
+            <Piece id="mace_handle_11" Type="Handle"/>
+            <Piece id="default_polearm_pommel" Type="Pommel"/>
+        </Pieces>
+        <!-- Length: 76 Weight: 0.83 -->
+    </CraftedItem>
+
+    <CraftedItem id="L5_Mace" name="{=L5Mace}L5_Mace" crafting_template="Mace">
+        <Pieces>
+            <Piece id="mace_head_18" Type="Blade"/>
+            <Piece id="mace_handle_15" Type="Handle" scale_factor="110"/>
+            <Piece id="default_polearm_pommel" Type="Pommel"/>
+        </Pieces>
+        <!-- Length: 68 Weight: 1.45 -->
+    </CraftedItem>
+
+    <CraftedItem id="L1_Javelin" name="{=L1Javelin}L1_Javelin" crafting_template="Javelin">
+        <Pieces>
+            <Piece id="spear_blade_9" Type="Blade"/>
+            <Piece id="default_polearm_guard" Type="Guard"/>
+            <Piece id="spear_handle_14" Type="Handle"/>
+            <Piece id="default_polearm_pommel" Type="Pommel"/>
+        </Pieces>
+        <!-- Length: 96 Weight: 0.82 -->
+    </CraftedItem>
+
+    <CraftedItem id="L2_Javelin" name="{=L2Javelin}L2_Javelin" crafting_template="Javelin">
+        <Pieces>
+            <Piece id="spear_blade_1" Type="Blade"/>
+            <Piece id="default_polearm_guard" Type="Guard"/>
+            <Piece id="spear_handle_14" Type="Handle"/>
+            <Piece id="default_polearm_pommel" Type="Pommel"/>
+        </Pieces>
+        <!-- Length: 121 Weight: 0.78 -->
+    </CraftedItem>
+
+    <CraftedItem id="L3_Javelin" name="{=L3Javelin}L3_Javelin" crafting_template="Javelin">
+        <Pieces>
+            <Piece id="spear_blade_14" Type="Blade"/>
+            <Piece id="default_polearm_guard" Type="Guard"/>
+            <Piece id="spear_handle_14" Type="Handle"/>
+            <Piece id="default_polearm_pommel" Type="Pommel"/>
+        </Pieces>
+        <!-- Length: 119 Weight: 0.94 -->
+    </CraftedItem>
+
+    <CraftedItem id="L4_Javelin" name="{=L4Javelin}L4_Javelin" crafting_template="Javelin">
+        <Pieces>
+            <Piece id="nord_spear_blade_9" Type="Blade"/>
+            <Piece id="default_polearm_guard" Type="Guard"/>
+            <Piece id="spear_handle_14" Type="Handle"/>
+            <Piece id="default_polearm_pommel" Type="Pommel"/>
+        </Pieces>
+        <!-- Length: 116 Weight: 0.82 -->
+    </CraftedItem>
+
+    <CraftedItem id="L5_Javelin" name="{=L5Javelin}L5_Javelin" crafting_template="Javelin">
+        <Pieces>
+            <Piece id="spear_blade_27" Type="Blade"/>
+            <Piece id="default_polearm_guard" Type="Guard"/>
+            <Piece id="spear_handle_14" Type="Handle"/>
+            <Piece id="default_polearm_pommel" Type="Pommel"/>
+        </Pieces>
+        <!-- Length: 142 Weight: 1.12 -->
+    </CraftedItem>
 
 </Items>
