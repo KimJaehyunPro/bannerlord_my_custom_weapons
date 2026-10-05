@@ -271,4 +271,54 @@
         <!-- Length: 142 Weight: 1.12 -->
     </CraftedItem>
 
+    <CraftedItem id="L1_Sword" name="={L1Sword}L1_Sword" crafting_template="OneHandedSword">
+        <Pieces>
+            <Piece id="aserai_blade_9" Type="Blade" scale_factor="90"/>
+            <Piece id="cleaver_guard_1" Type="Guard"/>
+            <Piece id="wood_grip_1" Type="Handle"/>
+            <Piece id="khuzait_pommel_6" Type="Pommel"/>
+        </Pieces>
+        <!-- Length: 91 Weight: 1 -->
+    </CraftedItem>
+
+    <CraftedItem id="L2_Sword" name="{=L2Sword}L2_Sword" crafting_template="OneHandedSword">
+        <Pieces>
+            <Piece id="aserai_blade_3" Type="Blade"/>
+            <Piece id="cleaver_guard_5" Type="Guard"/>
+            <Piece id="cleaver_grip_5" Type="Handle"/>
+            <Piece id="khuzait_pommel_6" Type="Pommel"/>
+        </Pieces>
+        <!-- Length: 102 Weight: 0.93 -->
+    </CraftedItem>
+
+    <CraftedItem id="L3_Sword" name="{=L3Sword}L3_Sword" crafting_template="OneHandedSword">
+        <Pieces>
+            <Piece id="aserai_blade_2" Type="Blade" scale_factor="90"/>
+            <Piece id="vlandian_guard_6" Type="Guard"/>
+            <Piece id="aserai_grip_7" Type="Handle"/>
+            <Piece id="khuzait_pommel_6" Type="Pommel"/>
+        </Pieces>
+        <!-- Length: 104 Weight: 1.07 -->
+    </CraftedItem>
+
+    <CraftedItem id="L4_Sword" name="{=L4Sword}L4_Sword" crafting_template="OneHandedSword">
+        <Pieces>
+            <Piece id="empire_blade_5" Type="Blade"/>
+            <Piece id="vlandian_guard_5" Type="Guard"/>
+            <Piece id="aserai_grip_3" Type="Handle"/>
+            <Piece id="khuzait_pommel_6" Type="Pommel"/>
+        </Pieces>
+        <!-- Length: 104 Weight: 1.09 -->
+    </CraftedItem>
+
+    <CraftedItem id="L5_Sword" name="{=L5Sword}L5_Sword" crafting_template="OneHandedSword">
+        <Pieces>
+            <Piece id="battania_noble_blade_1" Type="Blade"/>
+            <Piece id="empire_noble_guard_1" Type="Guard"/>
+            <Piece id="empire_grip_17" Type="Handle"/>
+            <Piece id="khuzait_pommel_6" Type="Pommel"/>
+        </Pieces>
+        <!-- Length: 107 Weight: 1.07 -->
+    </CraftedItem>
+
 </Items>
